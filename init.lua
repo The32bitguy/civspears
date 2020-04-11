@@ -14,7 +14,7 @@ local woodshield= {
 }
 minetest.register_entity("spears:woodshield", woodshield)
 minetest.register_craftitem("spears:woodshield", {
-    description = "Wooden Shield",
+    description = "Wooden Shield but it is better",
     inventory_image = "spears_wooden_shield.png",
     on_use = function(itemstack, player, pointed_thing)
     local bearer = player
