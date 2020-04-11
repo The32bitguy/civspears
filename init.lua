@@ -1,6 +1,7 @@
 local woodshield= {
     initial_properties = {
         hp_max = 30,
+    	pointable = true,
         physical = true,
         collide_with_objects = true,
         collisionbox = {-0.1, -0.5, -0.5, 0.1, 0.5, 0.5},
